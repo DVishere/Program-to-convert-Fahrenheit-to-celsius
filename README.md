@@ -7,7 +7,7 @@ int main()
 {
     float fahrenheit, celsius;
 
-    printf("Enter the temp in fahrenheit: ");
+    printf("Enter the temp in fahrenheit: "/n);
     scanf("%f", &fahrenheit);
 
     celsius = (5.0/9) * (fahrenheit - 32);
